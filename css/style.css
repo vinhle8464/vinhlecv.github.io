@@ -1,0 +1,46 @@
+body {
+    background: #faf2de;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.page_content{
+    width: 90%;
+    margin: auto;
+}
+
+section.page_header {
+    padding: 30px 10px;
+    margin: 50px auto;
+    border-bottom: 5px gray solid;
+    border-left: 1px gray solid;
+    border-top: 5px gray solid;
+    border-right: 1px gray solid;
+    border-radius: 10px;
+    background: #fffefa;
+    box-shadow: deeppink;
+}
+
+.header_image {
+    padding-left: 50px;
+}
+
+.header_image img {
+    border-radius: 100%;
+    /* width: 90%; */
+    border: 5px blue solid;
+    /* background-color: yellow; */
+}
+
+.header_content h2 {
+    padding-left: 10px;
+    font-size: 25px;
+}
+.header_content h1 {
+    font-size: 70px;
+    font-family: cursive;
+}
+
+.header_content {
+    padding: 60px;
+}
