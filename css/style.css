@@ -219,7 +219,10 @@ section.page_header {
     text-align: center;
     padding-top: 70px;
 }
-.education_content .col-12.col-md-12 div h4,ul {
+.education_content h4 {
+   text-align: center;
+}
+.education_content ul {
     list-style-type: none;
     text-align: center;
 }
