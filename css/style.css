@@ -340,6 +340,49 @@ section.page_header {
   transform: rotate(-88deg);
 }
 
+@media only screen and (max-device-width: 420px) {
+ 
+  .section_content .col-4.col-md-4 div {
+    width: 320px !important;
+}
+
+.section_content .col-8.col-md-8 div {
+  margin-left: -113px !important;
+  width: 320px !important;
+}
+
+.section_content.skill_content .col-8.col-md-8 div {
+  margin-left: 35px !important;
+  /* margin: 0 auto; */
+  width: 320px !important;
+}
+
+.section_content.skill_content .col-4.col-md-4 div {
+  margin: 550px 0 0 -245px !important;
+}
+
+.experience_content .col-6.col-md-6:first-child:before {
+  width: 414px !important;
+}
+
+.experience_content div h3 {
+  top: 10px !important;
+  left: 25px !important;
+  width: 300px !important;
+  display: inline-block;
+}
+
+.education_content .col-12.col-md-12 div {
+  width: 400px;
+  margin-left: -73px !important;
+}
+
+.education_content .col-12.col-md-12 div p {
+  left: 37% !important;
+}
+
+}
+
 @media only screen and (max-device-width: 480px) {
   /* styles for mobile browsers smaller than 480px; (iPhone) */
 
@@ -566,6 +609,7 @@ section.page_header {
 
   .experience_content.bg_orange div h3 {
     top: 160px;
+    
   }
 
   .experience_content.bg_blue .col-6.col-md-6:first-child:before {
@@ -574,6 +618,7 @@ section.page_header {
 
   .experience_content div h3 {
     top: 155px;
+    width: 100px;
   }
 
   .education_content .col-12.col-md-12 div p {
