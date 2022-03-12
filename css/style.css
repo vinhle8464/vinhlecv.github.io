@@ -141,6 +141,10 @@ section.page_header {
   text-align: justify;
 }
 
+.experience_content_title h5:hover{
+  color: gold;
+}
+
 .experience_content .row {
   margin: 50px auto;
   border-radius: 20px;
@@ -159,6 +163,20 @@ section.page_header {
   border-top-left-radius: 23px;
   border-bottom-left-radius: 23px;
   z-index: 1;
+}
+
+.experience_content.bg_green .col-6.col-md-6:first-child:before {
+  background: blueviolet;
+  height: 160px;
+}
+
+.experience_content.bg_green div h3 {
+  position: absolute;
+  top: 40px;
+  left: 5%;
+  color: #fff;
+  z-index: 9999;
+  text-align: center;
 }
 
 .experience_content.bg_orange .col-6.col-md-6:first-child:before {
@@ -381,6 +399,10 @@ section.page_header {
   left: 37% !important;
 }
 
+.experience_content.bg_green .col-6.col-md-6:first-child:before {
+  height: 100px;
+}
+
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -425,7 +447,7 @@ section.page_header {
   .social_icon {
     position: absolute;
     top: 190px;
-    right: 100px;
+    right: 125px;
   }
 
   .social_icon a {
@@ -454,24 +476,39 @@ section.page_header {
   }
 
   .section_content .col-4.col-md-4 div {
-    width: 320px;
+    width: 380px;
   }
 
   .section_content .col-8.col-md-8 div {
     margin-top: 270px;
     margin-left: -137px;
-    width: 320px;
+    width: 380px;
   }
+
+  .experience_content.bg_green .col-6.col-md-6:first-child:before {
+   
+    height: 100px;
+}
+.experience_content.bg_green div h3 {
+ 
+  top: 10px;
+  left: 27%;
+ 
+}
+
+.experience_content div h3 br {
+  display: none;
+}
 
   .section_content.skill_content .col-8.col-md-8 div {
     margin-top: 0;
     margin-left: 33px;
     /* margin: 0 auto; */
-    width: 320px;
+    width: 380px;
   }
 
   .section_content.skill_content .col-4.col-md-4 div {
-    width: 320px;
+    width: 380px;
     margin: 530px 0 0 -287px;
   }
 
@@ -480,7 +517,7 @@ section.page_header {
     content: "";
     top: -20px;
     left: -20px;
-    width: 400px;
+    width: 480px;
     height: 100px;
     border-top-left-radius: 23px;
     border-top-right-radius: 23px;
@@ -520,7 +557,7 @@ section.page_header {
   }
 
   .education_content .col-12.col-md-12 div p {
-    left: 38%;
+    left: 36%;
   }
 }
 @media only screen and (device-width: 768px) {
@@ -603,6 +640,8 @@ section.page_header {
     margin-left: -100px;
   }
 
+
+
   .experience_content.bg_orange .col-6.col-md-6:first-child:before {
     height: 488px;
   }
@@ -670,12 +709,25 @@ section.page_header {
     top: 0;
   }
 
+  .experience_content.bg_green .col-6.col-md-6:first-child:before {
+   
+    height: 200px;
+}
+
+.experience_content.bg_green div h3 {
+ 
+  top: 65px;
+  left: 10%;
+  
+}
+
   .experience_content.bg_orange .col-6.col-md-6:first-child:before {
     height: 392px;
   }
 
   .experience_content.bg_orange div h3 {
     top: 125px;
+    width: 100px;
   }
 
   .experience_content.bg_blue .col-6.col-md-6:first-child:before {
@@ -683,6 +735,7 @@ section.page_header {
   }
   .experience_content.bg_blue div h3 {
     top: 100px;
+    width: 100px;
   }
 
   .education_content .col-12.col-md-12 div p {
@@ -715,6 +768,24 @@ section.page_header {
     top: 53px;
   }
 
+  .experience_content.bg_green .col-6.col-md-6:first-child:before {
+    height: 176px;
+}
+
+.experience_content.bg_green div h3 {
+  top: 55px;
+  left: 8%;
+}
+
+.experience_content.bg_orange div h3 {
+  top: 97px;
+  width: 100px;
+}
+
+.experience_content.bg_blue div h3 {
+  top: 97px;
+  width: 100px;
+}
   .experience_content.bg_orange .col-6.col-md-6:first-child:before {
     height: 320px;
   }
@@ -734,6 +805,16 @@ section.page_header {
     top: 25px;
     right: -110px;
 }
+
+.experience_content.bg_green .col-6.col-md-6:first-child:before {
+  height: 160px;
+}
+
+.experience_content.bg_green div h3 {
+  top: 45px !important;
+  left: 5% !important;
+}
+
 .section_content.skill_content .col-4.col-md-4 div {
   width: 390px;
   margin-left: -160px;
@@ -757,7 +838,7 @@ section.page_header {
 
 .experience_content div h3 {
   position: absolute;
-  top: 90px  !important;
+  top: 80px  !important;
   left: 23px;
   width: 100px;
   color: #fff;
