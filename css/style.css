@@ -360,6 +360,11 @@ section.page_header {
 
 @media only screen and (max-device-width: 420px) {
  
+.social_icon {
+    top: 190px;
+    right: 100px !important;
+}
+
   .section_content .col-4.col-md-4 div {
     width: 320px !important;
 }
